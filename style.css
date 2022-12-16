@@ -83,7 +83,8 @@
      background-color: #fff;
      border-color: #fff;
      box-shadow: #eee;
-     width: 12em;
+     width: 120px;
+     
      border: none;
      border-radius: 45px;
      box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
@@ -159,6 +160,8 @@ button{
      align-items: center;
      justify-content: center;
      padding: 50px;
+     height: 250px;
+    
 
  }
 
@@ -168,6 +171,7 @@ button{
      justify-content: center;
      align-items: center;
      position: relative;
+     width: 100%;
 
  }
 
@@ -176,12 +180,13 @@ button{
      border-color: hsl(322, 100%, 66%);
      box-shadow: #eee;
      width: 70%;
-     height: 60px;
+     height: 5em;
      border: none;
      border-radius: 45px;
      box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
      font-weight: 600;
      color: #eee;
+    
  }
 
 
@@ -193,10 +198,13 @@ button{
      width: 100%;
 
  }
-
+.flex > img{
+    margin-bottom: 30px;
+}
  .footer {
      display: flex;
      flex: 0 0 25%;
+     
  }
 
  ul {
@@ -243,9 +251,14 @@ button{
      }
 
      .container {
-         padding: 10px;
+       padding:10px 0 0 0;
 
      }
+     
+ 
+ nav>button{
+   height: 40px;
+ }
 
      nav>img,
      .flex>img {
@@ -273,6 +286,7 @@ button{
      }
 
      footer {
+        width: 100%;
          padding: 200px 0 0 0;
      }
 
@@ -320,7 +334,7 @@ button{
 
  @media only screen and (max-width: 1400px) {
      body {
-         max-width: 90%;
+         max-width: 100%;
      }
 
  }
